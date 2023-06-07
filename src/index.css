@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bg-tierragirando {
+  position: absolute;
+  background-image: url('./assets/tierragirando.gif');
+}
+
+.bg-lluvioso {
+  position: absolute;
+  background-image: url('./assets/lluvioso.gif');
+}
+
+.bg-nublado {
+  position: absolute;
+  background-image: url('./assets/nublado.gif');
+}
+
+.bg-neblina {
+  position: absolute;
+  background-image: url('./assets/neblina.gif');
+}
+
+.bg-soleado {
+  position: absolute;
+  background-image: url('./assets/soleado.gif');
+}
+
+.bg-despejado {
+  position: absolute;
+  background-image: url('./assets/despejado.gif');
+}
