@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/appClima/static/css/main.619445a2.css",
+    "main.js": "/appClima/static/js/main.06825842.js",
+    "static/js/787.c8ce203a.chunk.js": "/appClima/static/js/787.c8ce203a.chunk.js",
+    "static/media/soleado.gif": "/appClima/static/media/soleado.dcbaacaa6d1cc2243d0d.gif",
+    "static/media/lluvioso.gif": "/appClima/static/media/lluvioso.d43df45c1ac07b27459b.gif",
+    "static/media/despejado.gif": "/appClima/static/media/despejado.3fba2541eb3981166e9c.gif",
+    "static/media/neblina.gif": "/appClima/static/media/neblina.23cb20ebbfbf41e5b997.gif",
+    "static/media/tierragirando.gif": "/appClima/static/media/tierragirando.a6e5ed68d2f44cfe614b.gif",
+    "static/media/nublado.gif": "/appClima/static/media/nublado.c88fdcacc3db0fe91845.gif",
+    "index.html": "/appClima/index.html",
+    "main.619445a2.css.map": "/appClima/static/css/main.619445a2.css.map",
+    "main.06825842.js.map": "/appClima/static/js/main.06825842.js.map",
+    "787.c8ce203a.chunk.js.map": "/appClima/static/js/787.c8ce203a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.619445a2.css",
+    "static/js/main.06825842.js"
+  ]
+}
