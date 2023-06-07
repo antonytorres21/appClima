@@ -12,12 +12,19 @@ function Background() {
   useEffect(() => {
     videoWeather(weatherState);
   }, [weatherState]);
+/**
+ * The function sets weather data, weather state, and a boolean value based on the input data.
+ */
 
   const handleWeatherData = (data) => {
     setWeatherData(data);
     setWeatherState(data.weather[0].main);
     setB2(true);
   };
+/**
+ * The function assigns a CSS class to a video element based on the weather state passed as an
+ * argument.
+ */
 
   const videoWeather = (weatherState) => {
     const videoState = {

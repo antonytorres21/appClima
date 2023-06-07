@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function SelectCity({ data, onSelect }) {
+  /**
+   * This function handles a change event and calls a function with the selected city as an argument if
+   * it is not the default value.
+   */
   const handleChange = (event) => {
     if (event.target.value !== "default") {
       const selectedCity = event.target.value;

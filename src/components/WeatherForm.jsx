@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Label, TextInput, Tooltip } from "flowbite-react";
 import SelectCity from "./SelectCity";
-import { getCitys, getWeather } from "../functions/Funtions";
+import { getCitys, getWeather } from "../functions/funtions";
 
 function WeatherFormComponent({ onWeatherData }) {
   const [dataCity, setDataCity] = useState();
