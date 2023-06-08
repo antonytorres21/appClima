@@ -10,7 +10,7 @@ import { WEATHER_KEY } from "../keys/Keys";
  */
 export async function getCitys(city, country) {
   const result = await fetch(
-    `http://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&limit=5&appid=${WEATHER_KEY}`
+    `https://api.openweathermap.org/geo/1.0/direct?q=${city},${country}&limit=5&appid=${WEATHER_KEY}`
   );
   const data = await result.json();
   //console.log(data);
