@@ -34,7 +34,7 @@ function WeatherFormComponent({ onWeatherData }) {
             <Label htmlFor="city" value="City Name" />
           </div>
           <div className="justify-center flex">
-            <Tooltip content="Example London">
+            <Tooltip  content="Example London">
               <TextInput
                 className="w-30"
                 id="city"
